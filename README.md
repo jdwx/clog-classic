@@ -1,4 +1,4 @@
-#Circular log support for FreeBSD syslogd
+# Circular log support for FreeBSD syslogd
 
 ## Background
 
@@ -18,26 +18,18 @@ be used to view their contents.
 
 ## Downloads
 
-Source code for this software is available under the BSD public license:
-
-* <A HREF="clog.html">The formatted manual page for clog.</A>
-* <A HREF="syslogd.patch">The context diff patch for syslogd.</A>
-* <A HREF="syslogd.tar.gz">The complete syslogd source.</A>
-* <A HREF="clog-1.0.1.tar.gz">The complete clog source.</A>
+Source code for this software is available under the BSD public license.
 
 In order to build the patched syslogd, the clog source must be available in
 a sibling directory.  That is, if syslogd is in /usr/src/usr.sbin/syslogd,
 then clog should be unpacked to /usr/src/usr.sbin/clog.  
 
-## Release History</FONT>
+## Release History
 
-<DT>1.0.1<DD>
-Fixed an oversight in clog that made it act as if the -f option was always 
-in use. 10/2/2001
-<DT>1.0<DD>
-Initial release. 10/1/2001
-</DL>
+* 1.0.1: Fixed an oversight in clog that made it act as if the -f 
+option was always in use. 10/2/2001
 
-For more information about this project, contact 
-<A HREF="mailto:jdw@wheelhouse.org">Jeff Wheelhouse</A>.  This page was last updated on 2020-01-05.
+* 1.0: Initial release. 10/1/2001
+
+This page was last updated on 2020-01-05.
 
