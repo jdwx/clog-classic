@@ -16,6 +16,9 @@ Support for circular logfiles requires a small patch to syslogd and a support
 program called clog.  The clog program creates the circular logfiles and can
 be used to view their contents.
 
+This software is presented here for historical interest; it is not 
+actively maintained.
+
 ## Downloads
 
 Source code for this software is available under the BSD public license.
@@ -25,6 +28,8 @@ a sibling directory.  That is, if syslogd is in /usr/src/usr.sbin/syslogd,
 then clog should be unpacked to /usr/src/usr.sbin/clog.
 
 ## Release History
+
+* 1.0.2: Moved to github.  2020-01-05
 
 * 1.0.1: Fixed an oversight in clog that made it act as if the -f
 option was always in use. 10/2/2001
